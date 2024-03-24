@@ -4,7 +4,7 @@
 		<section name="JKWii">
 			<option name="Pack">
 				<choice name="Enabled">
-					<patch id="JKWii207LoadPack"/>
+					<patch id="JKWii159LoadPack"/>
 				</choice>
 			</option>
 			<option name="My Stuff">
@@ -12,12 +12,12 @@
 					<patch id="CTGPLoad"/>
 				</choice>
 				<choice name="From Pack">
-					<patch id="JKWii207Load"/>
+					<patch id="JKWii159Load"/>
 				</choice>
 			</option>
 		</section>
 	</options>	
-	<patch id="JKWii207LoadPack">
+	<patch id="JKWii159LoadPack">
 		<memory offset="0x80242698" value="4BDC1968" original="4e800020" /> <!--RMCP DOL-->
 		<memory offset="0x8000A3F4" value="4bff9c0c" original="4e800020" /> <!--RMCP REL-->
 		<memory offset="0x802417dc" value="4BDC2824" original="4e800020" /> <!--RMCE DOL-->
@@ -35,7 +35,7 @@
 	<patch id="CTGPLoad">
 		<folder external="/ctgpr/My Stuff" />
 	</patch>	
-	<patch id="JKWii207Load">
+	<patch id="JKWii159Load">
 		<folder external="/JKWii/My Stuff" />
 	</patch>
 </wiidisc>
